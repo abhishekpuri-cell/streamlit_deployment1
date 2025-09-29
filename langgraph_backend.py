@@ -12,7 +12,7 @@ load_dotenv()
 # Fetch API key
 api_key = os.getenv("OPENAI_API_KEY")
 
-print(api_key)
+# print(api_key)
 
 # Check if API key exists
 if not api_key:
